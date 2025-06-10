@@ -2,8 +2,8 @@ import express from 'express';
 import morgan from 'morgan';
 import 'dotenv/config';
 import mongoose from 'mongoose';
-import authRoutes from './routes/auth.mjs';
-import usersRoutes from './routes/users.mjs';
+import authRoutes from './auth.mjs';
+import usersRoutes from './users.mjs';
 import cors from 'cors';
 
 const app = express();
